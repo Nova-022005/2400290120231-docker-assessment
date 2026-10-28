@@ -1,0 +1,21 @@
+# Environment variables and secrets (Never commit .env or credentials)
+.env
+*.key
+*.pem
+*.crt
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDE and OS specific files
+.DS_Store
+.idea/
+.vscode/
+
+# Assessment reports and local artifacts if generated outside reports/
+# (Keep your reports folder tracked if required, or ignore local temp files)
