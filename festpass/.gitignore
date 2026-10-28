@@ -3,6 +3,7 @@
 *.key
 *.pem
 *.crt
+cosign.pub
 
 # Python cache and virtual environments
 __pycache__/
