@@ -18,4 +18,4 @@
 ## Docker Hub Image Digest (Stage 4.2)
 The immutable SHA256 image digest for version **`1.0.0`** as published to Docker Hub:
 ```text
-digest: sha256:7f40468110b22b84f650ad435431a41859da2849b687ff29a5c7f7bdaa9ca9a1 size: 856
+digest: sha256:d19835c9825cadbab4e989810d69d5e6960f9de8fcec6a6ca143bdc8038c72ca size: 856
