@@ -1,5 +1,7 @@
-# Stage 3.2: Pinned secure slim Python base image
 FROM python:3.9-slim
+
+# Update system packages to patch OS-level vulnerabilities (like openssl and perl-base)
+RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
 
 # Create a non-root user and group
 RUN groupadd -r appuser && useradd -r -g appuser appuser
